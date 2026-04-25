@@ -1,0 +1,30 @@
+POST http://localhost:3000/api/people
+Content-Type: application/json
+
+{
+  "firstName": "J",
+  "lastName": "D"
+}
+
+###
+GET http://localhost:3000/api/people
+Content-Type: application/json
+
+
+###
+GET http://localhost:3000/api/people/1
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/api/people/3
+Content-Type: application/json
+
+{
+  "id": 3,
+  "firstName": "Jo",
+  "lastName": "Dwe"
+}
+
+###
+Delete http://localhost:3000/api/people/4
+Content-Type: application/json
